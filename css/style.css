@@ -1,0 +1,28 @@
+* {
+    box-sizing: 0;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #002f5f;
+}
+
+main {
+    background-color: #002f5f;
+}
+
+.btn-group .row {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+/* Mostrar el menú cuando el contenedor tiene el puntero encima */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* Evitar que el menú desaparezca inmediatamente */
+.dropdown-menu {
+  margin-top: 0; /* Asegura que no haya un salto al mostrar */
+}
